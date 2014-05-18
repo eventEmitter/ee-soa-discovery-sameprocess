@@ -1,8 +1,9 @@
 
 	
-	var   Class 		= require('ee-class')
-		, log 			= require('ee-log')
-		, assert 		= require('assert');
+	var   Class 			= require('ee-class')
+		, log 				= require('ee-log')
+		, assert 			= require('assert')
+        , DiscoveryResponse = require('ee-soa-discovery-response');
 
 
 
@@ -20,7 +21,8 @@
 			discovery.discover('someApp', 'someService', function(err, response){
 				if (err) done(err);
 				else {
-					assert.equal(response.transport, 'local'); 
+					assert.equal(response.status, DiscoveryResponse.statuses.Found); 
+					assert.equal(response.transport, DiscoveryResponse.transports.Local); 
 					done();
 				}
 			});
