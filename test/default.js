@@ -20,7 +20,7 @@
 			discovery.discover('someApp', 'someService', function(err, response){
 				if (err) done(err);
 				else {
-					assert.equal(response.transport, 13); 
+					assert.equal(response.transport, 'local'); 
 					done();
 				}
 			});
