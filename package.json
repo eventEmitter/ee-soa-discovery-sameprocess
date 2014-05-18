@@ -1,0 +1,31 @@
+{
+      "name"                            : "ee-soa-discovery-sameprocess"
+    , "description"                     : "Static discovery for the EE SOA, returns always the local process as result"
+    , "version"                         : "0.1.1"
+    , "homepage"                        : "https://github.com/eventEmitter/ee-soa-discovery-sameprocess"
+    , "author"                          : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "licence"                         : "mit"
+    , "repository": {
+          "url"                         : "https://github.com/eventEmitter/ee-soa-discovery-sameprocess.git"
+        , "type"                        : "git"
+    }
+    , "engines": {
+        "node"                          : ">=v0.10.17"
+    }
+    , "bugs": {
+        "url"                           : "https://github.com/eventEmitter/ee-soa-discovery-sameprocess/issues"
+    }
+    , "dependencies": {
+          "ee-class"                    : "1.0.x"
+        , "ee-log"                      : "0.2.x"
+        , "ee-soa-discovery-response"   : "0.1.x"
+    }
+    , "devDependencies": {
+          "mocha"                       : "1.17.x"
+    }
+    , "optionalDependencies": {}
+    , "keywords"                        : ["ee", "soa", "discovery"]
+    , "scripts": {
+        "test"                          : "./node_modules/mocha/bin/mocha --reporter spec"
+    }
+}
