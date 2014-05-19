@@ -26,6 +26,10 @@
 					done();
 				}
 			});
-		});		
+		});	
+
+		it('should identify itself as disocvery implementation', function(){
+			assert.equal(new Discovery().isDiscovery(), true);
+		});	
 	});
 	
