@@ -16,13 +16,13 @@
         "url"                           : "https://github.com/eventEmitter/ee-soa-discovery-sameprocess/issues"
     }
     , "dependencies": {
-          "ee-class"                    : "1.0.x"
-        , "ee-log"                      : "0.2.x"
+          "ee-class"                    : "~1.4.0"
+        , "ee-log"                      : "~2.0.2"
         , "ee-soa-discovery-response"   : "0.1.x"
         , "ee-soa-discovery"            : "0.1.x"
     }
     , "devDependencies": {
-          "mocha"                       : "1.17.x"
+          "mocha"                       : "~3.3.0"
     }
     , "optionalDependencies": {}
     , "keywords"                        : ["ee", "soa", "discovery"]
