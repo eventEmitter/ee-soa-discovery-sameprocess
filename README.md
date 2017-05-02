@@ -1,5 +1,7 @@
 # ee-soa-discovery-sameprocess
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/ee-soa-discovery-sameprocess.svg)](https://greenkeeper.io/)
+
 Static discovery for the EE SOA, returns always the local process as result
 
 ## installation
